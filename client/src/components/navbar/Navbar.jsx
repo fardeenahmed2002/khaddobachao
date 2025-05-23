@@ -45,7 +45,7 @@ export default function NavBar() {
             className="w-12 h-12 rounded-full shadow-md border border-green-700"
           />
           <h1 className="text-2xl sm:text-3xl font-extrabold text-green-800 drop-shadow-sm">
-            Food Waste Rescue
+            খাদ্য বাঁচাও
           </h1>
         </div>
 

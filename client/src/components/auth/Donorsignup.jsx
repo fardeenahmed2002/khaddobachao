@@ -33,7 +33,7 @@ export default function Donorsignup() {
 
             setError("");
             axios.defaults.withCredentials = true;
-            const { data } = await axios.post('/api/auth/register', {
+            const { data } = await axios.post('http://localhost:3000/api/auth/register', {
                 email: formData.email,
                 password: formData.password,
                 name: formData.name,
