@@ -19,7 +19,7 @@ export default function Footer() {
       <footer className="relative z-10 text-white pt-12 pb-6 px-6 md:px-12 rounded-b-3xl">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
           <div>
-            <h2 className="text-xl font-bold mb-4">FoodRescue</h2>
+            <h2 className="text-xl font-bold mb-4">খাদ্য বাঁচাও</h2>
             <p className="text-sm text-gray-300">
               We're on a mission to reduce food waste and hunger by connecting food donors with people in need.
             </p>

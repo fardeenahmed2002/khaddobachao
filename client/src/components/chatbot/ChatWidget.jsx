@@ -14,7 +14,7 @@ export default function ChatWidget() {
                 <MessageCircle size={24} />
             </button>
             {isOpen && (
-                <div className="fixed bottom-20 right-5 w-[330px] h-[500px] z-50 shadow-xl rounded-xl overflow-hidden border border-gray-300 bg-white">
+                <div className="fixed bottom-[50px] right-[100px] w-[330px] h-[500px] z-50 shadow-xl rounded-xl overflow-hidden border border-gray-300 bg-white">
                     <Chatbot />
                 </div>
             )}
